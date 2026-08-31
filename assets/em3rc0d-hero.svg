@@ -1,0 +1,61 @@
+<svg width="1200" height="500" viewBox="0 0 1200 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">Em3rc0d — Eduardo Merino engineering profile hero</title>
+<desc id="desc">Animated engineering systems hero showing frontend, backend, data and AI nodes around a terminal interface.</desc>
+
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="500" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#020617"/>
+    <stop offset="0.46" stop-color="#0B1025"/>
+    <stop offset="1" stop-color="#071426"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="210" y1="80" x2="980" y2="430" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#A78BFA"/>
+    <stop offset="0.45" stop-color="#38BDF8"/>
+    <stop offset="1" stop-color="#22D3EE"/>
+  </linearGradient>
+  <linearGradient id="terminalBorder" x1="160" y1="112" x2="890" y2="420" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#4F46E5" stop-opacity=".9"/>
+    <stop offset=".55" stop-color="#0EA5E9" stop-opacity=".85"/>
+    <stop offset="1" stop-color="#22D3EE" stop-opacity=".7"/>
+  </linearGradient>
+  <radialGradient id="glowA" cx="0" cy="0" r="1" gradientTransform="translate(182 66) rotate(37) scale(390 250)" gradientUnits="userSpaceOnUse"><stop stop-color="#4F46E5" stop-opacity=".22"/><stop offset="1" stop-color="#4F46E5" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glowB" cx="0" cy="0" r="1" gradientTransform="translate(1050 420) rotate(-145) scale(390 240)" gradientUnits="userSpaceOnUse"><stop stop-color="#06B6D4" stop-opacity=".19"/><stop offset="1" stop-color="#06B6D4" stop-opacity="0"/></radialGradient>
+  <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="8" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="nodeGlow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M 32 0 L 0 0 0 32" fill="none" stroke="#94A3B8" stroke-opacity=".055" stroke-width="1"/></pattern>
+  <clipPath id="terminalClip"><rect x="143" y="255" width="727" height="177" rx="19"/></clipPath>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .pulse { animation: pulse 2.8s ease-in-out infinite; transform-origin: center; }
+    .pulse2 { animation: pulse 3.4s ease-in-out .7s infinite; transform-origin: center; }
+    .blink { animation: blink 1s steps(1,end) infinite; }
+    .float1 { animation: float1 5.5s ease-in-out infinite; }
+    .float2 { animation: float2 6.3s ease-in-out .8s infinite; }
+    .flow { stroke-dasharray: 8 12; animation: dash 2.2s linear infinite; }
+    .flowSlow { stroke-dasharray: 5 13; animation: dash 3.2s linear infinite reverse; }
+    .scan { animation: scan 4.8s linear infinite; }
+    .appear1 { animation: appear 7s ease-in-out infinite; }
+    .appear2 { animation: appear 7s ease-in-out 1.4s infinite; }
+    .appear3 { animation: appear 7s ease-in-out 2.8s infinite; }
+    .status { animation: status 3.2s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { opacity:.55; transform:scale(.94); } 50% { opacity:1; transform:scale(1.08); } }
+    @keyframes blink { 0%,48% { opacity:1; } 49%,100% { opacity:0; } }
+    @keyframes float1 { 0%,100% { transform:translateY(0px); } 50% { transform:translateY(-7px); } }
+    @keyframes float2 { 0%,100% { transform:translateY(0px); } 50% { transform:translateY(8px); } }
+    @keyframes dash { to { stroke-dashoffset:-40; } }
+    @keyframes scan { 0% { transform:translateX(-180px); opacity:0; } 15% { opacity:.75; } 55% { opacity:.25; } 100% { transform:translateX(980px); opacity:0; } }
+    @keyframes appear { 0%,14% { opacity:.2; } 24%,70% { opacity:1; } 84%,100% { opacity:.2; } }
+    @keyframes status { 0%,100% { opacity:.55; } 50% { opacity:1; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+</defs>
+<rect width="1200" height="500" rx="28" fill="url(#bg)"/><rect width="1200" height="500" rx="28" fill="url(#grid)"/><rect width="1200" height="500" rx="28" fill="url(#glowA)"/><rect width="1200" height="500" rx="28" fill="url(#glowB)"/>
+<rect x="1" y="1" width="1198" height="498" rx="27" stroke="#334155" stroke-opacity=".55"/><path d="M34 1H375" stroke="url(#accent)" stroke-width="2" stroke-linecap="round"/><path d="M825 499H1166" stroke="url(#accent)" stroke-width="2" stroke-linecap="round"/>
+<g class="mono" font-size="12"><text x="42" y="40" fill="#64748B">EM3RC0D // ENGINEERING PROFILE</text><text x="930" y="40" fill="#64748B">LIMA, PE</text><circle cx="1120" cy="36" r="4" fill="#22C55E" class="status"/><text x="1132" y="40" fill="#94A3B8">AVAILABLE</text></g>
+<g class="sans"><text x="58" y="92" font-size="18" font-weight="700" fill="#38BDF8" letter-spacing="2">EDUARDO MERINO</text><text x="58" y="146" font-size="47" font-weight="800" fill="#F8FAFC">I build systems,</text><text x="58" y="196" font-size="47" font-weight="800" fill="url(#accent)">not just screens.</text><text x="60" y="231" font-size="16" fill="#94A3B8">Full Stack · AI Engineering · Product Engineering</text></g>
+<g filter="url(#softGlow)"><rect x="142" y="254" width="730" height="180" rx="21" fill="#020617" fill-opacity=".72" stroke="url(#terminalBorder)" stroke-opacity=".48"/></g><rect x="143" y="255" width="727" height="177" rx="19" fill="#020617" fill-opacity=".86"/>
+<g clip-path="url(#terminalClip)"><rect x="143" y="255" width="727" height="35" fill="#0F172A"/><circle cx="166" cy="272" r="5" fill="#FB7185" fill-opacity=".9"/><circle cx="184" cy="272" r="5" fill="#FBBF24" fill-opacity=".9"/><circle cx="202" cy="272" r="5" fill="#4ADE80" fill-opacity=".9"/><text x="226" y="276" class="mono" font-size="12" fill="#64748B">eduardo@em3rc0d: ~/engineering</text><rect x="143" y="291" width="160" height="140" fill="url(#accent)" opacity=".035" class="scan"/><g class="mono" font-size="12.5"><text x="170" y="315" fill="#22C55E">➜</text><text x="193" y="315" fill="#38BDF8">whoami</text><text x="263" y="315" fill="#E2E8F0">Eduardo Merino</text><text x="370" y="315" fill="#64748B">// Full Stack · AI · Product</text><text x="170" y="342" fill="#22C55E">➜</text><text x="193" y="342" fill="#38BDF8">cat</text><text x="226" y="342" fill="#E2E8F0">engineering.principles</text><g class="appear1"><text x="170" y="369" fill="#A78BFA">01</text><text x="198" y="369" fill="#CBD5E1">Architecture first.</text></g><g class="appear2"><text x="338" y="369" fill="#38BDF8">02</text><text x="366" y="369" fill="#CBD5E1">Evidence always.</text></g><g class="appear3"><text x="520" y="369" fill="#22D3EE">03</text><text x="548" y="369" fill="#CBD5E1">Ship when ready.</text></g><text x="170" y="405" fill="#22C55E">➜</text><text x="193" y="405" fill="#38BDF8">./build_the_future.sh</text><rect x="391" y="394" width="7" height="14" rx="1" fill="#E2E8F0" class="blink"/></g></g>
+<g><text x="924" y="96" class="mono" font-size="11" fill="#64748B">SYSTEM GRAPH</text><path d="M942 145 C1000 145 1025 181 1055 205" stroke="#38BDF8" stroke-opacity=".35" stroke-width="1.7" class="flow"/><path d="M1052 233 C1041 276 1000 306 945 312" stroke="#22D3EE" stroke-opacity=".3" stroke-width="1.7" class="flowSlow"/><path d="M918 304 C882 282 876 234 901 200" stroke="#A78BFA" stroke-opacity=".3" stroke-width="1.7" class="flow"/><path d="M937 158 C935 196 941 222 960 250" stroke="#64748B" stroke-opacity=".22" stroke-width="1.4"/><path d="M961 249 C1000 256 1032 248 1050 232" stroke="#64748B" stroke-opacity=".22" stroke-width="1.4"/><g class="float1"><rect x="888" y="119" width="114" height="54" rx="13" fill="#0F172A" stroke="#4F46E5" stroke-opacity=".65"/><circle cx="909" cy="146" r="6" fill="#A78BFA" class="pulse"/><text x="925" y="143" class="mono" font-size="11" fill="#CBD5E1">FRONTEND</text><text x="925" y="158" class="mono" font-size="9" fill="#64748B">Next · Angular</text></g><g class="float2"><rect x="1013" y="197" width="130" height="58" rx="13" fill="#0F172A" stroke="#0EA5E9" stroke-opacity=".68"/><circle cx="1035" cy="226" r="6" fill="#38BDF8" class="pulse2"/><text x="1051" y="222" class="mono" font-size="11" fill="#CBD5E1">BACKEND</text><text x="1051" y="239" class="mono" font-size="9" fill="#64748B">Spring · Node</text></g><g class="float1"><rect x="882" y="287" width="116" height="58" rx="13" fill="#0F172A" stroke="#22D3EE" stroke-opacity=".65"/><circle cx="903" cy="316" r="6" fill="#22D3EE" class="pulse"/><text x="919" y="312" class="mono" font-size="11" fill="#CBD5E1">DATA</text><text x="919" y="329" class="mono" font-size="9" fill="#64748B">Postgres · GIS</text></g><g filter="url(#nodeGlow)"><circle cx="961" cy="236" r="44" fill="#0B1220" stroke="url(#accent)" stroke-width="1.8"/><circle cx="961" cy="236" r="31" fill="#111827" stroke="#38BDF8" stroke-opacity=".25"/><circle cx="961" cy="236" r="8" fill="#38BDF8" class="pulse2"/></g><text x="947" y="233" class="mono" font-size="12" font-weight="700" fill="#F8FAFC">AI</text><text x="937" y="250" class="mono" font-size="8.5" fill="#64748B">LLM · ML</text><rect x="1008" y="304" width="136" height="42" rx="11" fill="#0F172A" stroke="#334155"/><text x="1025" y="329" class="mono" font-size="10" fill="#94A3B8">Docker · Linux · Cloud</text></g>
+<g><rect x="58" y="443" width="1084" height="1" fill="#334155" fill-opacity=".45"/><g class="mono" font-size="10.5" fill="#64748B"><text x="58" y="470">TYPE_SCRIPT</text><circle cx="143" cy="466" r="2.7" fill="#38BDF8"/><text x="159" y="470">JAVA</text><circle cx="201" cy="466" r="2.7" fill="#A78BFA"/><text x="217" y="470">PYTHON</text><circle cx="274" cy="466" r="2.7" fill="#22D3EE"/><text x="290" y="470">POSTGRESQL</text><circle cx="381" cy="466" r="2.7" fill="#38BDF8"/><text x="397" y="470">DOCKER</text><text x="792" y="470">REQUIREMENTS</text><text x="882" y="470" fill="#334155">→</text><text x="903" y="470">ARCHITECTURE</text><text x="996" y="470" fill="#334155">→</text><text x="1018" y="470">EVIDENCE</text><text x="1083" y="470" fill="#334155">→</text><text x="1104" y="470">SHIP</text></g></g>
+</svg>

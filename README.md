@@ -5,7 +5,7 @@ TypeScript | JavaScript | Java | Python | SQL
 Next.js | Angular | React | React Native | Spring Boot | Node.js | Express
 PostgreSQL | PostGIS | MongoDB | SQLite
 Docker | Vercel | Linux | Git | GitHub
-AI Integration | LLM Applications | Machine Learning | Automation
+AI Integration | LLM Applications | Machine Learning | Agentic Systems | Automation
 Systems Engineering | Universidad Nacional Mayor de San Marcos | Peru
 -->
 
@@ -20,274 +20,266 @@ Systems Engineering | Universidad Nacional Mayor de San Marcos | Peru
 <h1 align="center">Software that goes beyond the demo.</h1>
 
 <p align="center">
-  <strong>Full Stack Developer · AI & Product Engineering · Systems Engineering @ UNMSM 🇵🇪</strong>
+  <strong>Full Stack Developer · AI Engineering · Product Engineering · Systems Engineering @ UNMSM 🇵🇪</strong>
 </p>
 
 <p align="center">
-  I design and build software from <strong>requirements and architecture</strong>
-  to <strong>implementation, persistence, deployment, verification and release</strong>.
+  I build software from <strong>requirements and architecture</strong> to
+  <strong>implementation, persistence, verification, deployment and release</strong>.
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/emerinoc">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="mailto:farid.merino1673@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Let's_Talk-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
   <a href="https://em3rc0d-portfolio.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-View_Work-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
+    <img src="https://img.shields.io/badge/Portfolio-Explore_My_Work-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Open_to-Software_Engineering-22C55E?style=flat-square" alt="Open to Software Engineering"/>
+  <img src="https://img.shields.io/badge/Focus-Production_Systems-3B82F6?style=flat-square" alt="Production Systems"/>
+  <img src="https://img.shields.io/badge/AI-Product_Integration-8B5CF6?style=flat-square" alt="AI Product Integration"/>
+  <img src="https://img.shields.io/badge/Mindset-Evidence_Driven-06B6D4?style=flat-square" alt="Evidence Driven"/>
+</p>
+
+---
+
+## `$ whoami`
+
+```text
+eduardo@em3rc0d:~$ whoami
+
+Eduardo Merino
+├── Full Stack Developer
+├── AI & Product Engineering
+├── Systems Engineering @ UNMSM
+├── Backend / Data / Architecture mindset
+└── Lima, Peru 🇵🇪
+```
+
+I build **complete systems**, not isolated screens.
+
+My work usually begins before the first line of code: I care about the problem, requirements, constraints, data model, architecture and failure modes — then implementation, verification and release.
+
+> **I want software whose behavior can be explained, tested and trusted.**
+
+---
+
+## ⚡ Engineering Snapshot
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🏗️ Software & Product
+
+- Full Stack development
+- Software architecture
+- Domain & data modeling
+- REST API design
+- Authentication & authorization
+- Persistence strategies
+- Failure modeling
+- Release engineering
+
+</td>
+<td width="50%" valign="top">
+
+### 🤖 AI & Intelligent Systems
+
+- LLM-powered applications
+- Agentic workflows
+- Structured AI outputs
+- Prompt engineering
+- Intelligent automation
+- ML-powered applications
+- Data-intensive products
+- Human + AI workflows
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ☁️ Infrastructure & Data
+
+- Docker & Linux
+- Vercel / cloud deployment
+- PostgreSQL & PostGIS
+- MongoDB
+- SQLite
+- API integrations
+- Persistent storage
+- Reproducible builds
+
+</td>
+<td width="50%" valign="top">
+
+### 🧠 Engineering Mindset
+
+- Requirements before implementation
+- Risk identification
+- System invariants
+- Data provenance
+- Testability
+- Recovery paths
+- Definition of Done
+- Evidence-backed release gates
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🧰 Technology Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,js,java,python,nextjs,angular,react,tailwind,spring,nodejs,express,postgres,mongodb,docker,git,github,linux,vercel,postman&theme=dark" alt="Technology stack"/>
+</p>
+
+<p align="center">
+  <strong>TypeScript · JavaScript · Java · Python · SQL</strong><br>
+  Next.js · Angular · React · React Native · Spring Boot · Node.js · Express<br>
+  PostgreSQL · PostGIS · MongoDB · SQLite · Docker · Linux · Vercel
+</p>
+
+---
+
+## 🧠 AI is Part of the System
+
+I don't see AI as a button added to an application. I prefer systems where AI operates inside explicit product boundaries:
+
+```text
+User / API
+    ↓
+Domain rules & invariants
+    ↓
+┌─────────────────────┐
+│ Application logic   │ ← deterministic behavior
+└─────────┬───────────┘
+          │
+          ├──────────────→ AI / LLM / ML
+          │                    ↓
+          └────────────── Validation / policy
+                               ↓
+                         Trusted product result
+```
+
+That means thinking about **validation, structured outputs, provenance, failure cases and deterministic logic around the model**.
+
+---
+
+# 🚀 Proof of Work
+
+### AutoPulse — Android Vehicle Intelligence
+
+<a href="https://github.com/Em3rc0d/autoPulse">
+  <img src="./assets/autopulse-card.svg" width="100%" alt="AutoPulse — Android Vehicle Intelligence"/>
+</a>
+
+Real Android + BLE + OBD-II engineering with durable telemetry sessions and physical vehicle validation.
+
+<br>
+
+### CV Engine — AI Resume Engineering
+
+<a href="https://github.com/Em3rc0d/harvard-ats-resume">
+  <img src="./assets/cv-engine-card.svg" width="100%" alt="CV Engine — AI Resume Engineering"/>
+</a>
+
+AI-assisted ATS optimization with validation, OCR, scoring and a core rule: **never fabricate professional experience**.
+
+<br>
+
+### MineralAI — Mining Intelligence Platform
+
+<a href="https://github.com/Em3rc0d/mining-platform">
+  <img src="./assets/mineralai-card.svg" width="100%" alt="MineralAI — Mining Intelligence Platform"/>
+</a>
+
+Full-stack financial analytics combining technical indicators, ML inference, backtesting and portfolio workflows.
+
+<br>
+
+### prodAgentic — Agentic Product Engineering
+
+<a href="https://github.com/Em3rc0d/prodAgentic">
+  <img src="./assets/prodagentic-card.svg" width="100%" alt="prodAgentic — Agentic Product Engineering"/>
+</a>
+
+Exploration of production-oriented agentic systems built around context, tools, evidence, validation and reproducibility.
+
+<p align="center">
+  <a href="https://em3rc0d-portfolio.vercel.app/">
+    <img src="https://img.shields.io/badge/Explore_more_projects-Developer_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Developer Portfolio"/>
   </a>
 </p>
 
 ---
 
-## 👨‍💻 About Me
-
-I'm **Eduardo Merino (`Em3rc0d`)**, a Full Stack Developer and Systems Engineering student at the **National University of San Marcos (UNMSM)** in Peru.
-
-I enjoy taking products from **zero to working software**: understanding the problem, defining requirements, making architectural decisions, designing the data model, implementing the system and proving that it behaves correctly.
-
-My main interests sit at the intersection of:
-
-* 🌐 **Full Stack & Product Engineering**
-* 🤖 **AI-powered applications and intelligent automation**
-* 🏗️ **Software architecture and system design**
-* 📊 **Data-intensive and ML-driven applications**
-* ☁️ **Cloud, containers and production deployment**
-* 📱 **Mobile and real-world connected systems**
-* 🔐 **Security, authorization and data integrity**
-* 🧪 **Testing, reproducibility and evidence-driven releases**
-
-> I care about building systems whose behavior can be explained, tested and verified — not just applications that happen to work on my machine.
-
----
-
-## ⚡ What I Can Build
-
-```text
-Idea / Problem
-      ↓
-Requirements & constraints
-      ↓
-Architecture & data model
-      ↓
-Frontend + Backend + APIs
-      ↓
-Authentication & persistence
-      ↓
-AI / automation / data processing
-      ↓
-Testing & verification
-      ↓
-Docker / Cloud / Deployment
-      ↓
-Production-ready product
-```
-
-I work comfortably across the stack and enjoy understanding **the complete system**, not only one layer of it.
-
----
-
-## 🧰 Technical Toolbox
-
-### Languages
-
-<p>
-  <img src="https://skillicons.dev/icons?i=ts,js,java,python,html,css&theme=dark" alt="Languages"/>
-</p>
-
-**TypeScript · JavaScript · Java · Python · SQL · HTML · CSS**
-
-### Frontend & Mobile
-
-<p>
-  <img src="https://skillicons.dev/icons?i=nextjs,angular,react,tailwind&theme=dark" alt="Frontend"/>
-</p>
-
-**Next.js · Angular · React · React Native · Tailwind CSS · Responsive UI**
-
-### Backend & APIs
-
-<p>
-  <img src="https://skillicons.dev/icons?i=spring,nodejs,express&theme=dark" alt="Backend"/>
-</p>
-
-**Spring Boot · Node.js · Express · REST APIs · Validation · Authentication · Authorization**
-
-### Data
-
-<p>
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb&theme=dark" alt="Databases"/>
-</p>
-
-**PostgreSQL · PostGIS · MongoDB · MongoDB Atlas · SQLite · Relational Data Modeling**
-
-### AI & Intelligent Systems
-
-**LLM Integration · AI-assisted applications · Intelligent automation · Machine Learning workflows · Data analysis · Prompt engineering**
-
-I focus on using AI as an **engineering component inside a product**, rather than treating the model itself as the product.
-
-### Infrastructure & Engineering
-
-<p>
-  <img src="https://skillicons.dev/icons?i=docker,git,github,linux,vercel,postman,figma&theme=dark" alt="Engineering tools"/>
-</p>
-
-**Docker · Git · GitHub · Linux · Vercel · Postman · Figma**
-
----
-
-## 🚀 Selected Engineering Work
-
-### 🚗 [AutoPulse](https://github.com/Em3rc0d/autoPulse)
-
-**Android vehicle intelligence & live OBD-II telemetry**
-
-A local-first vehicle intelligence system that connects Android devices to real vehicles through OBD adapters.
-
-`TypeScript` · `React Native` · `Android` · `BLE` · `OBD-II` · `SQLite`
-
-Highlights:
-
-* Real ECU telemetry acquisition
-* BLE / ELM-compatible OBD communication
-* Capability discovery instead of assuming vehicle support
-* Durable driving sessions and historical reconstruction
-* Explicit lifecycle and degraded-state handling
-* Phone sensor integration
-* Evidence-driven compatibility
-* CI-backed Android release candidates
-* Physical testing against real vehicles
-
----
-
-### 🤖 [CV Engine](https://github.com/Em3rc0d/harvard-ats-resume)
-
-**AI-powered ATS-optimized resume generation**
-
-A resume engineering platform that combines structured user data, job descriptions and AI without fabricating professional experience.
-
-`Next.js` · `TypeScript` · `Gemini AI` · `Zod` · `OCR` · `React`
-
-Highlights:
-
-* AI-assisted resume enhancement
-* Job-description keyword matching
-* ATS scoring
-* Structured validation
-* Input sanitization
-* API rate limiting
-* Certificate OCR
-* PDF-ready professional output
-
----
-
-### ⛏️ [MineralAI](https://github.com/Em3rc0d/mining-platform)
-
-**Mining financial intelligence & ML platform**
-
-A full-stack platform for analyzing mining companies using financial data, technical indicators, machine-learning models and backtesting.
-
-`Next.js` · `TypeScript` · `SQLite` · `Machine Learning`
-
-Includes:
-
-* Financial dashboard
-* ML inference
-* Classification and regression models
-* Technical indicators
-* Strategy backtesting
-* Portfolio management
-* Prediction history
-* REST APIs
-
----
-
-### 🧠 [prodAgentic](https://github.com/Em3rc0d/prodAgentic)
-
-**Agentic systems & product engineering**
-
-Exploration and development of production-oriented AI systems, agentic workflows and software engineering processes.
-
-`AI Systems` · `Agents` · `Product Engineering` · `Automation`
-
----
-
-### 🌐 [Developer Portfolio](https://github.com/Em3rc0d/em3rc0d-portfolio)
-
-My evolving engineering portfolio and public presentation layer.
-
-Built to showcase not only finished interfaces, but the **systems, architecture and engineering decisions behind the products**.
-
----
-
-## 🧭 How I Approach Engineering
-
-My default approach is:
+## 🏗️ How I Build Software
 
 ```text
 Understand the problem
         ↓
 Define requirements
         ↓
-Identify risks & unknowns
+Identify constraints & risks
         ↓
 Validate data sources
         ↓
 Design architecture
         ↓
-Define system invariants
+Define domain invariants
         ↓
-Close major technical decisions
+Close major decisions
         ↓
 Implement
         ↓
-Test with real evidence
+Verify failure + success paths
         ↓
-Release
+Build reproducibly
+        ↓
+Release with evidence
 ```
 
-I prefer solving expensive architectural uncertainty **before** turning it into expensive code.
-
-That means thinking about:
-
-* system boundaries;
-* domain invariants;
-* authorization;
-* persistence;
-* data provenance;
-* failure modes;
-* reproducibility;
-* testability;
-* deployment;
-* rollback and recovery;
-* product-level Definition of Done.
+> **Solve expensive uncertainty before it becomes expensive code.**
 
 ---
 
-## 🎯 Areas I'm Especially Interested In
+## 🔐 Before I Call Something “Done”
 
 ```text
-Full Stack Engineering
-Product Engineering
-Software Architecture
-AI Engineering
-Agentic Systems
-Backend Engineering
-Cloud Applications
-Intelligent Automation
-Data-intensive Systems
-Developer Tools
+PRODUCT VALUE        ✓     DATA INTEGRITY       ✓
+ARCHITECTURE         ✓     PERSISTENCE          ✓
+DOMAIN INVARIANTS    ✓     FAILURE MODES        ✓
+AUTHORIZATION        ✓     TESTABILITY          ✓
+SECURITY             ✓     E2E                  ✓
+PERFORMANCE          ✓     REPRODUCIBILITY      ✓
+DEPLOYMENT           ✓     RELEASE EVIDENCE     ✓
 ```
+
+Shipping isn't just:
+
+```bash
+npm run dev
+```
+
+Shipping is knowing **why the system deserves to be released**.
 
 ---
 
-## 📊 GitHub Activity
+## 📊 Engineering Activity
 
 <p align="center">
   <img
+    width="95%"
     src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Em3rc0d&theme=tokyonight"
     alt="Eduardo Merino GitHub activity"
   />
@@ -295,8 +287,9 @@ Developer Tools
 
 <p align="center">
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=Em3rc0d&theme=tokyo-night&hide_border=true&bg_color=0d1117&area=true&radius=10&custom_title=Engineering%20Activity"
-    alt="GitHub activity graph"
+    width="95%"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=Em3rc0d&theme=tokyo-night&hide_border=true&bg_color=0d1117&area=true&radius=12&custom_title=Engineering%20Activity"
+    alt="Engineering activity graph"
   />
 </p>
 
@@ -304,26 +297,26 @@ Developer Tools
 
 ## 🤝 Let's Build Something
 
-I'm interested in opportunities where I can contribute to **real products, challenging systems and engineering teams that care about quality**.
+I'm interested in teams building **real products, AI-powered applications, full-stack platforms, developer tools, automation systems and data-intensive software**.
 
-If you're looking for someone who can move between **frontend, backend, databases, architecture, AI and deployment** while still thinking about the product as a whole:
-
-<p align="center">
-  <strong>Let's talk.</strong>
-</p>
+If you need someone who can move between **frontend, backend, data, architecture, AI and deployment** without losing sight of the product:
 
 <p align="center">
   <a href="mailto:farid.merino1673@gmail.com">
-    <img src="https://img.shields.io/badge/Hire_Me-farid.merino1673%40gmail.com-4F46E5?style=for-the-badge&logo=gmail&logoColor=white" alt="Hire Eduardo Merino"/>
+    <img src="https://img.shields.io/badge/LET'S_BUILD_SOMETHING-Contact_Me-4F46E5?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact Eduardo Merino"/>
   </a>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/emerinoc">LinkedIn</a>
-  ·
-  <a href="https://github.com/Em3rc0d">GitHub</a>
-  ·
-  <a href="https://em3rc0d-portfolio.vercel.app/">Portfolio</a>
+  <a href="https://www.linkedin.com/in/emerinoc"><strong>LinkedIn</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Em3rc0d"><strong>GitHub</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://em3rc0d-portfolio.vercel.app/"><strong>Portfolio</strong></a>
+</p>
+
+<p align="center">
+  <code>eduardo@em3rc0d:~$ ./build_the_future.sh</code>
 </p>
 
 <p align="center">

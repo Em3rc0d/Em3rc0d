@@ -8,7 +8,14 @@ Docker | Vercel | Linux | Git | GitHub
 AI Integration | LLM Applications | Machine Learning | Automation
 Systems Engineering | Universidad Nacional Mayor de San Marcos | Peru
 -->
-<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,100:0EA5E9&height=200&section=header&text=Eduardo%20Merino%20(Em3rc0d)&fontSize=45&fontAlignY=35&fontColor=ffffff&animation=fadeIn" alt="banner"/> </p>
+
+<p align="center">
+  <img
+    src="./assets/em3rc0d-hero.svg"
+    width="100%"
+    alt="Eduardo Merino — Em3rc0d | Full Stack · AI · Product Engineering"
+  />
+</p>
 
 <h1 align="center">Software that goes beyond the demo.</h1>
 
@@ -316,12 +323,13 @@ If you're looking for someone who can move between **frontend, backend, database
   ·
   <a href="https://github.com/Em3rc0d">GitHub</a>
   ·
-  <a href="https://davision.vercel.app">Portfolio</a>
+  <a href="https://em3rc0d-portfolio.vercel.app/">Portfolio</a>
 </p>
 
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:0EA5E9,50:2563EB,100:4F46E5&height=120&section=footer"
-    alt="footer"
+    src="./assets/em3rc0d-footer.svg"
+    width="100%"
+    alt="Architecture first. Evidence always. Ship when ready."
   />
 </p>

@@ -8,13 +8,7 @@ Docker | Vercel | Linux | Git | GitHub
 AI Integration | LLM Applications | Machine Learning | Automation
 Systems Engineering | Universidad Nacional Mayor de San Marcos | Peru
 -->
-
-<p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,50:2563EB,100:0EA5E9&height=210&section=header&text=Eduardo%20Merino%20%7C%20Em3rc0d&fontSize=42&fontAlignY=35&fontColor=ffffff&animation=fadeIn&desc=Full%20Stack%20Developer%20%C2%B7%20AI%20%26%20Product%20Engineering&descAlignY=55&descSize=18"
-    alt="Eduardo Merino - Em3rc0d"
-  />
-</p>
+<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,100:0EA5E9&height=200&section=header&text=Eduardo%20Merino%20(Em3rc0d)&fontSize=45&fontAlignY=35&fontColor=ffffff&animation=fadeIn" alt="banner"/> </p>
 
 <h1 align="center">Software that goes beyond the demo.</h1>
 
